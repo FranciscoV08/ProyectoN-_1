@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 200px;
+    text-align: right;
+    padding: 30px 20px;
+}
+
+.Titulo_Principal{
+    text-align: center;
+}
+
+.Texto_Titulo{
+    height: 129px;
+    text-align: center;
+    color: rgb(246, 246, 246);
+    font-size: 30px;
+    
+}
+header{
+    width: 100%;
+    height: 600px;
+
+    /* Fondo de la Web desing Francisco Original */
+    background-color: rgba(119, 61, 228, 0.692);
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(img/Adelante7.jpg);
+    background: linear-gradient(to right, rgba(166, 100, 241, 0.459), hsla(317, 45%, 52%, 0.664)), url(img/Adelante7.jpg);
+    /* Ajuste de la imagen */
+    background-size: cover;
+    
+}
+
+nav >a{
+    
+    color:rgb(246, 246, 246);
+    text-decoration: none;
+    padding: 30px 20px 0px 0px;
+    letter-spacing: 1pt;
+}
+
+/* Animacion de los "a" */
+nav >a:hover{
+    text-decoration: underline;
+}
+
+.Descripcion_Bajo_Titulo{
+   
+    text-align: center;
+    font-size: 30px;
+    color: rgb(246, 246, 246);
+}
+
+.Descripcion_Titulo{
+    
+    text-align: center;
+    padding: 30px 0px;
+    color: rgba(116, 33, 76, 0.763);
+    font-size: 40px;
+
+
+}
+
+.Texto_Descripcion{
+  padding: 30px;
+  font-weight: 300px;
+  text-align: justify;
+}
+
+.Seccion_Descripcion{
+    
+}
+
+section{
+  
+
+}
+
+
+.img_Descripcion{
+
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+}
+
+.Lenguajes_Usados{
+    text-align: center;
+
+    padding: 20px 10px;
+}
+
+.imagenes_Usados{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
